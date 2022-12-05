@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 500px;
+}div {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    width: 800px;
+}
+#border-all {
+    border: 20px solid limegreen;
+}
+#border-Single {
+    border-top:20px solid limegreen;
+          /*RIGHT , BOTTOM, LEFT*/ 
+
+}
+#Rounded-all {
+    border: 20px solid limegreen;
+    border-radius: 20px;
+}
+#Rounded-Two {
+    border-radius:50px 0 50px 0;
+}
+#circle {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 20px;
+    border-radius: 50%;
+    background-color: limegreen;
+}
+#Border-circle {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    border: 15px solid greenyellow;
+}
+#Border-Frame {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 10px;
+    border-top: 25px solid greenyellow;
+    border-bottom: 25px solid greenyellow;
+    border-left: 25px solid darkslategray;
+    border-right: 25px solid darkslategray;
+
+}
+#Border-Ring {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 10px;
+    border-radius: 50%;
+    border: 15px solid greenyellow;
+    border-top: 25px solid greenyellow;
+    border-bottom: 25px solid greenyellow;
+    border-left: 25px solid darkslategray;
+    border-right: 25px solid darkslategray;
+    background: linear-gradient(45deg, darkslategrey, yellow);
+}
+#Youtube {
+    height: 300px;
+    width: 500px;
+    box-shadow: 0 0 10px;
+    border-top: 25px solid greenyellow;
+    border-bottom: 25px solid greenyellow;
+    border-left: 25px solid darkslategray;
+    border-right: 25px solid darkslategray;
+}
