@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://ak.picdn.net/shutterstock/videos/12923249/thumb/10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.container {
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: 150px auto;
+    color: black;
+    box-shadow: 0 0 10px;
+    /*background-color: red;*/
+   /* This are non transparent 
+    background-color: rgb(120,255,30);
+    background-color:#055000;
+    background-color:HSL(360,80,40)*/
+    /*RGBA A is alpha (0-1) 
+    0 is transparent1 is full color*/
+    background-color: rgba(0,255,0,0.5);
+    /*HSLA A is alpha (0-1) 
+    0 is transparent1 is full color
+    Hsla(60,60%90%0.5)*/
+
+}
