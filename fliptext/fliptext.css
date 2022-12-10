@@ -1,0 +1,58 @@
+body {
+    background-color: cadetblue;
+}
+.container {
+    width: 500px;
+    height: 350px;
+    margin: 80px auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: o 5px 10px black;
+    overflow: hidden;
+}
+.container img {
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+    transition: all 0.5sec;
+}
+.container:hover img {
+    transform: scale(1.2,1.2);
+}
+.container .content {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: Perspective(400px)rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.container:hover .content {
+    transform: Perspective(400px)rotateY(0deg);
+}
+.container .consider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: Perspective(400px)rotateY(-90deg);
+    transform-origin: right;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.container:hover .consider{
+    transform: Perspective(400px)rotateY(0deg);
+}
