@@ -1,0 +1,32 @@
+.container {
+    height: 450px;
+    width: 300px;
+    margin: 120px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    position: relative;
+    overflow:hidden;
+}
+.container img {
+    height:inherit;
+    width:inherit;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    transition: all 0.5s;
+    
+}
+.container .content {
+    position: absolute;
+    bottom: -40%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    color: white;
+    padding: 10px;
+    transition: all 0.4s;
+}
+.container:hover .content {
+    position: absolute;
+    bottom: 0;
+}
+.container:hover {
+    transform: translatey(-30%);
+}
