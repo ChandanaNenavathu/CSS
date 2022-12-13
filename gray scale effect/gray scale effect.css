@@ -1,0 +1,25 @@
+body {
+    background-color:black;
+}
+.gray-scale {
+    border: 5px solid black;
+    margin: 50px auto;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px white;
+    overflow: hidden;
+
+}
+.gray-scale img {
+    height:inherit;
+    width:inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+.gray-scale:hover img {
+    transform: scale(1.2,1.2);
+    filter: grayscale(0%);
+}
