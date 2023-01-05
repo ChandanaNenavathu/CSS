@@ -1,0 +1,46 @@
+.Sample-div {
+    font-family: Arial, Helvetica, sans-serif;
+    width:900px;
+    margin: 90px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+}
+.Name {
+    font-size: 15px;
+    height: 30px;
+    background-color: lightblue;
+    color: black;
+    width: 900px;
+}
+.Benchmark-Universe {
+    margin-top: 13px;
+}
+.Classroom-Universe-Course {
+    margin-left: 87px;
+}
+.tina .selectName{
+    font-size: 15px;
+    height: 30px;
+    background-color: lightblue;
+    color: black;
+    display: inline;
+    width: 350px !important;
+}
+.Cancel-Button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 350px;
+    width: 100px;
+}
+.Share-Button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-left: 50px;
+    width: 100px;
+    background-color: cadetblue;
+    display: inline;
+}
