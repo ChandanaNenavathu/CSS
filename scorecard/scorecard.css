@@ -1,0 +1,118 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 13px;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+}
+
+.Cricbuzz-name {
+    margin-left: 10px;
+}
+
+.ICC-name {
+    margin-left: 26px;    
+}
+
+.container-name {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    padding: 7px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box ;
+}
+
+.Test-class {
+    margin-left: 131px;
+    text-decoration: underline blue;
+    text-decoration-thickness: 5px;
+    
+}
+
+.Odi-class {
+    margin-left: 37px;
+    text-decoration: underline blue;
+    text-decoration-thickness: 5px;
+}
+
+.T20I-CLASS {
+    margin-left: 32px;
+    text-decoration: underline blue;
+    text-decoration-thickness: 5px;
+}
+
+.container-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid black; */
+    padding: 3px;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+}
+
+.country-class {
+    margin-left: 75px;
+}
+
+.points-class {
+    margin-left: 77px;
+}
+
+.rating-class {
+    margin-left: 39px;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 30%;
+    background-color: #454545;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black;
+}
+
+.SouthAfrica-class {
+    margin-left: 86px;
+}
+
+.class {
+    margin-left: 59px;
+}
+
+.classes {
+    margin-left: 55px;
+}
+
+.match-class {
+    margin-left: 102px;
+    font-size: small;
+}
+
+.pri-class {
+    margin-left: 107px;
+}
+
+.sec-class {
+    margin-left: 81px;
+}
+
+.ter-class {
+    margin-left: 79px;
+}
+
+.five-class {
+    margin-left: 77px;
+}
+
+.six-class {
+    margin-left: 59px;
+}
+.seven-class {
+    margin-left: 76px;
+}
