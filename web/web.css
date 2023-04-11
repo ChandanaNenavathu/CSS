@@ -1,0 +1,92 @@
+body {
+    background-color: yellow;
+    border-radius: 4px;
+}
+button {
+    height: 20px;
+    width: 20px;
+}
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+    margin-top: 7px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 87px;
+}
+.menu-class1 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    position: absolute;
+    
+}
+.menu-class2 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    position: absolute;
+}
+.menu-class3 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    position: absolute;
+    
+    
+}
+
+.BodyClass {
+    border: 2px solid black;
+    height: 436px;
+    width: 543px;
+    margin: 80px auto;
+    margin-top: 70px;
+    background: linear-gradient(90deg, #fd5624 31%, yellow 31%);
+    position: relative;
+}
+
+.topnav {
+    overflow: hidden;
+    margin-top: 47px
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.email-class {
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 280px;
+    position: absolute;
+    height: 30px;
+}
+  
+.middle-class {
+    border: 2px solid black;
+    height: 258px;
+    width: 245px;
+    position: relative;
+    margin: 27px 35px;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltJ7F8oYGEeAwDh946Xb0_TJwbD-QgWBv2A&usqp=CAU");
+    background-repeat: no-repeat;
+}
+.slidecontainer {
+    width: 300px;
+    margin-top: 224px;
+    margin-left: 45px;
+}
